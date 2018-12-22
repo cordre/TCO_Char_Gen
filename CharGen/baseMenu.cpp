@@ -9,5 +9,6 @@ int main(array < String^ > ^ args) {
 	Application::SetCompatibleTextRenderingDefault(false);
 	TCOCharGen::baseMenu form;
 	Application::Run(%form);
-	return 0;
+
+//	return 0;
 }
