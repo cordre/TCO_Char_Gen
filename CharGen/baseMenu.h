@@ -11,6 +11,7 @@ namespace TCOCharGen {
 	using namespace System::Drawing;
 
 
+
 	/// <summary>
 	/// Summary for baseMenu
 	/// </summary>
@@ -58,7 +59,7 @@ namespace TCOCharGen {
 
 	private: System::ComponentModel::IContainer^  components;
 
-
+	
 
 
 	protected:
@@ -68,7 +69,10 @@ namespace TCOCharGen {
 	protected:
 
 	private:
-		int gender;
+		System::ComponentModel::ComponentResourceManager^  RText = (gcnew System::ComponentModel::ComponentResourceManager(baseMenu::typeid));
+		System::ComponentModel::ComponentResourceManager^  CText = (gcnew System::ComponentModel::ComponentResourceManager(baseMenu::typeid));
+		//Resources::ResourceManager^ RText = gcnew Resources::ResourceManager(L"TCOCharGen.ClassText", this->GetType()->Assembly);
+		//Resources::ResourceManager^ CText = gcnew Resources::ResourceManager(L"TCOCharGen.RaceText", this->GetType()->Assembly);
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
@@ -77,6 +81,9 @@ namespace TCOCharGen {
 			System::String^ RaceTextPath = ".\\text\\races\\";
 			System::String^ RacePath = ".\\images\\races\\";
 			System::String^ iconPath = ".\\images\\races\\icons\\";
+
+			//this->raceDetails->LoadFile((RaceTextPath + raceText + ".rtf"), RichTextBoxStreamType::RichText);
+
 			this->raceDetails->LoadFile((RaceTextPath+ raceText +".rtf"), RichTextBoxStreamType::RichText);
 			this->classImage->BackgroundImage = System::Drawing::Image::FromFile(RacePath+ raceImage +".jpg");
 			this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(iconPath+pRace+".png");
@@ -111,7 +118,7 @@ namespace TCOCharGen {
 				break;
 			/*
 			case 8:
-				this->raceDetails->LoadFile(".\\text\\races\\Centaur.rtf", RichTextBoxStreamType::RichText);
+				
 				break;
 			*/
 			};
@@ -226,8 +233,7 @@ namespace TCOCharGen {
 			this->raceDetails->ShortcutsEnabled = false;
 			this->raceDetails->Size = System::Drawing::Size(600, 923);
 			this->raceDetails->TabIndex = 2;
-			//this->raceDetails->Text = L"Test";
-			this->raceDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText );
+			/this->raceDetails->Text = L"Test";
 			this->raceDetails->TextChanged += gcnew System::EventHandler(this, &baseMenu::raceDetails_TextChanged);
 			// 
 			// nextRace
@@ -304,8 +310,7 @@ namespace TCOCharGen {
 			this->classDetails->ShortcutsEnabled = false;
 			this->classDetails->Size = System::Drawing::Size(600, 923);
 			this->classDetails->TabIndex = 8;
-			this->classDetails->Text = L"Class Info";
-			//this->classDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText);
+			//this->classDetails->Text = L"Class Info";
 			// 
 			// maleT
 			// 
@@ -377,8 +382,10 @@ namespace TCOCharGen {
 			this->Text = L"baseMenu";
 			this->ResumeLayout(false);
 
+			ClassSwitcher("Anjian", "anjian", "blank", "anjian", "efairy", "Anjian");
 		}
 #pragma endregion
+
 private: System::Void prevRace_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
 }
 private: System::Void currentRace_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
