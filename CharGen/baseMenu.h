@@ -77,7 +77,7 @@ namespace TCOCharGen {
 		/// Required designer variable.
 		/// </summary>
 
-		void ClassSwitcher(System::String^ raceText, System::String^ raceImage, System::String^ pRace, System::String^ cRace, System::String^ nRace, System::String^ labelrace) {
+		void RaceSwitcher(System::String^ raceText, System::String^ raceImage, System::String^ pRace, System::String^ cRace, System::String^ nRace, System::String^ labelrace) {
 			System::String^ RaceTextPath = ".\\text\\races\\";
 			System::String^ RacePath = ".\\images\\races\\";
 			System::String^ iconPath = ".\\images\\races\\icons\\";
@@ -96,25 +96,25 @@ namespace TCOCharGen {
 			switch (racesel)
 			{
 			case 1:
-				ClassSwitcher("Anjian","anjian","blank","anjian","efairy","Anjian");
+				RaceSwitcher("Anjian","anjian","blank","anjian","efairy","Anjian");
 				break;
 			case 2:
-				ClassSwitcher("Elite Fairy", "efairy", "anjian", "efairy", "gdragon", "Elite Fairy");
+				RaceSwitcher("Elite Fairy", "efairy", "anjian", "efairy", "gdragon", "Elite Fairy");
 				break;
 			case 3:
-				ClassSwitcher("Guarded Dragon", "gdragon", "efairy", "gdragon", "harpy", "Guarded Dragon");
+				RaceSwitcher("Guarded Dragon", "gdragon", "efairy", "gdragon", "harpy", "Guarded Dragon");
 				break;
 			case 4:
-				ClassSwitcher("Harpy", "harpy1", "gdragon", "harpy", "human", "Harpy");
+				RaceSwitcher("Harpy", "harpy1", "gdragon", "harpy", "human", "Harpy");
 				break;
 			case 5:
-				ClassSwitcher("Human", "human", "harpy", "human", "light", "Human");
+				RaceSwitcher("Human", "human", "harpy", "human", "light", "Human");
 				break;
 			case 6:
-				ClassSwitcher("Light", "light", "human", "light", "shoan", "Light");
+				RaceSwitcher("Light", "light", "human", "light", "shoan", "Light");
 				break;
 			case 7:
-				ClassSwitcher("Shoan", "shoan2", "light", "shoan", "blank", "Shoan");
+				RaceSwitcher("Shoan", "shoan2", "light", "shoan", "blank", "Shoan");
 				break;
 			/*
 			case 8:
@@ -233,7 +233,7 @@ namespace TCOCharGen {
 			this->raceDetails->ShortcutsEnabled = false;
 			this->raceDetails->Size = System::Drawing::Size(600, 923);
 			this->raceDetails->TabIndex = 2;
-			/this->raceDetails->Text = L"Test";
+			this->raceDetails->Text = L"Race Info";
 			this->raceDetails->TextChanged += gcnew System::EventHandler(this, &baseMenu::raceDetails_TextChanged);
 			// 
 			// nextRace
@@ -310,7 +310,7 @@ namespace TCOCharGen {
 			this->classDetails->ShortcutsEnabled = false;
 			this->classDetails->Size = System::Drawing::Size(600, 923);
 			this->classDetails->TabIndex = 8;
-			//this->classDetails->Text = L"Class Info";
+			this->classDetails->Text = L"Class Info";
 			// 
 			// maleT
 			// 
@@ -382,7 +382,7 @@ namespace TCOCharGen {
 			this->Text = L"baseMenu";
 			this->ResumeLayout(false);
 
-			ClassSwitcher("Anjian", "anjian", "blank", "anjian", "efairy", "Anjian");
+			RaceSwitcher("Anjian", "anjian", "blank", "anjian", "efairy", "Anjian");
 		}
 #pragma endregion
 
