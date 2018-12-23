@@ -20,6 +20,8 @@ namespace CharGen
     /// </summary>
     public partial class MainWindow : Window
     {
+        int gender = 0;
+        int curRace = 1;
         public MainWindow()
         {
             InitializeComponent();

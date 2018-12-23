@@ -160,6 +160,7 @@
     <Resource Include="Resources\images\races\human.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\images\races\icons\blank_icon.png" />
     <Resource Include="Resources\images\races\ira.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -214,94 +215,91 @@
     <Resource Include="Resources\icons\Right.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\ageles_icon.png" />
+    <Resource Include="Resources\images\races\icons\ageless_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\anjia_icon.png" />
+    <Resource Include="Resources\images\races\icons\anjian_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\aquati_icon.png" />
+    <Resource Include="Resources\images\races\icons\aquatic_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\blan_icon.png" />
+    <Resource Include="Resources\images\races\icons\blank__icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\blank_icon.png" />
+    <Resource Include="Resources\images\races\icons\centaur_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\centau_icon.png" />
+    <Resource Include="Resources\images\races\icons\crystalian_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\crystalia_icon.png" />
+    <Resource Include="Resources\images\races\icons\dark_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\dar_icon.png" />
+    <Resource Include="Resources\images\races\icons\ddragon_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\ddrago_icon.png" />
+    <Resource Include="Resources\images\races\icons\demotos_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\demoto_icon.png" />
+    <Resource Include="Resources\images\races\icons\dharpy_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\dharp_icon.png" />
+    <Resource Include="Resources\images\races\icons\dragonoid_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\dragonoi_icon.png" />
+    <Resource Include="Resources\images\races\icons\edenian_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\edenia_icon.png" />
+    <Resource Include="Resources\images\races\icons\edragon_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\edrago_icon.png" />
+    <Resource Include="Resources\images\races\icons\efairy_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\efair_icon.png" />
+    <Resource Include="Resources\images\races\icons\elf_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\el_icon.png" />
+    <Resource Include="Resources\images\races\icons\galvatos_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\galvato_icon.png" />
+    <Resource Include="Resources\images\races\icons\gdragon_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\gdrago_icon.png" />
+    <Resource Include="Resources\images\races\icons\ghaust_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\ghaus_icon.png" />
+    <Resource Include="Resources\images\races\icons\godling_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\godlin_icon.png" />
+    <Resource Include="Resources\images\races\icons\harpy_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\harp_icon.png" />
+    <Resource Include="Resources\images\races\icons\human_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\huma_icon.png" />
+    <Resource Include="Resources\images\races\icons\ira_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\ir_icon.png" />
+    <Resource Include="Resources\images\races\icons\light_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\ligh_icon.png" />
+    <Resource Include="Resources\images\races\icons\minotaur_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\minotau_icon.png" />
+    <Resource Include="Resources\images\races\icons\rubian_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\rubia_icon.png" />
+    <Resource Include="Resources\images\races\icons\shoan_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\shoa_icon.png" />
+    <Resource Include="Resources\images\races\icons\sylph_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\sylp_icon.png" />
+    <Resource Include="Resources\images\races\icons\vampire_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\icons\vampir_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\icons\younh_icon.png" />
+    <Resource Include="Resources\images\races\icons\younha_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
