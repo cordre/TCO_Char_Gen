@@ -7,22 +7,18 @@
         mc:Ignorable="d"
         Title="CharGen v4" Height="720" Width="1280">
     <Grid Background="Black">
-        <Button x:Name="buttonPrevRace" Content="" HorizontalAlignment="Left" Margin="413,530,0,0" VerticalAlignment="Top" Width="74" Height="29" Click="ButtonPrevRace_Click">
+        <Button x:Name="buttonPrevRace" Content="" HorizontalAlignment="Left" Margin="412,530,0,0" VerticalAlignment="Top" Width="74" Height="29" Click="ButtonPrevRace_Click">
             <Button.Background>
-                <ImageBrush Stretch="Uniform" ImageSource="pack://siteoforigin:,,,/icons/Left.png"/>
+                <ImageBrush Stretch="Uniform" ImageSource="Resources/icons/Left.png"/>
             </Button.Background>
         </Button>
         <Button x:Name="buttonNextRace" Content="" HorizontalAlignment="Left" Margin="776,530,0,0" VerticalAlignment="Top" Width="82" RenderTransformOrigin="6.144,9.752" Click="ButtonNextRace_Click" Height="29">
             <Button.Background>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/icons/Right.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="Resources/icons/Right.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
         <RichTextBox x:Name="richText_Race" HorizontalAlignment="Left" Height="479" Margin="10,10,0,0" VerticalAlignment="Top" Width="371" Background="Black">
-            <FlowDocument>
-                <Paragraph>
-                    <Run Text="RichTextBox"/>
-                </Paragraph>
-            </FlowDocument>
+            <FlowDocument/>
         </RichTextBox>
         <RichTextBox x:Name="richText_Class" HorizontalAlignment="Left" Height="479" Margin="892,10,0,0" VerticalAlignment="Top" Width="371">
             <RichTextBox.Background>
@@ -35,11 +31,7 @@
             </FlowDocument>
         </RichTextBox>
         <Label x:Name="label_CurrentRace" Content="Label" HorizontalAlignment="Left" Margin="559,613,0,0" VerticalAlignment="Top" Height="35" Width="120"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="301" Margin="529,90,0,0" VerticalAlignment="Top" Width="207">
-            <Image.OpacityMask>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/images/races/anjian.jpg" Stretch="Uniform"/>
-            </Image.OpacityMask>
-        </Image>
         <Label x:Name="label_Choose" Content="Choose Your Race" HorizontalAlignment="Center" Margin="559,36,594.333,0" VerticalAlignment="Top" Height="35" Width="120" Background="Black"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="301" Margin="529,90,0,0" VerticalAlignment="Top" Width="207" Source="Resources/images/races/anjian.jpg" Stretch="Fill"/>
     </Grid>
 </Window>
