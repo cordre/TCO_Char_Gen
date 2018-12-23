@@ -121,20 +121,11 @@
   <data name="ageless" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\ageless.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ageles_icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\ageles_icons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="anjian" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\anjian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="anjia_iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\anjia_iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="aquatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\aquatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aquati_iconc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\aquati_iconc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blank" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons\blank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,80 +133,41 @@
   <data name="blank_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons\blank_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blank_icon_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\blank_icon_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blan_iconk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\blan_iconk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="border" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons\border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="centaur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\centaur.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="centau_iconr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\centau_iconr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="crystalian" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\crystalian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="crystalia_iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\crystalia_iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dar_iconk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\dar_iconk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ddragon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\ddragon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ddrago_iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\ddrago_iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="demotos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\demotos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="demoto_icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\demoto_icons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="dharpy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\dharpy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dharp_icony" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\dharp_icony.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dragonoid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\dragonoid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dragonoi_icond" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\dragonoi_icond.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="edenian" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\edenian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="edenia_iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\edenia_iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="edragon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\edragon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edrago_iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\edrago_iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="efairy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\efairy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="efair_icony" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\efair_icony.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="elf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\elf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="el_iconf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\el_iconf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="female" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons\female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,26 +178,14 @@
   <data name="galvatos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\galvatos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="galvato_icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\galvato_icons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="gdragon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\gdragon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gdrago_iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\gdrago_iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ghaust" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\ghaust.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ghaus_icont" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\ghaus_icont.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="godling" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\godling.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="godlin_icong" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\godlin_icong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="harpy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\harpy1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,29 +193,17 @@
   <data name="harpy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\harpy2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="harp_icony" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\harp_icony.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="human" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\human.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="huma_iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\huma_iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ira" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\ira.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ir_icona" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\ir_icona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons\Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\light.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ligh_icont" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\ligh_icont.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="male" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons\male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -286,17 +214,11 @@
   <data name="minotaur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\minotaur.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="minotau_iconr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\minotau_iconr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons\Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rubian" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\rubian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rubia_iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\rubia_iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shoan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\shoan1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -304,25 +226,103 @@
   <data name="shoan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\shoan2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shoa_iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\shoa_iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sylph" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\sylph.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sylp_iconh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\sylp_iconh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vampire" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\vampire.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vampir_icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\vampir_icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="youna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images\races\youna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="younh_icona" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images\races\icons\younh_icona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ageles_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\ageles_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anjia_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\anjia_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aquati_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\aquati_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blank_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\blank_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blan_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\blan_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="centau_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\centau_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crystalia_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\crystalia_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dar_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\dar_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ddrago_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\ddrago_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demoto_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\demoto_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dharp_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\dharp_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dragonoi_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\dragonoi_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edenia_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\edenia_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edrago_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\edrago_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="efair_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\efair_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="el_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\el_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="galvato_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\galvato_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gdrago_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\gdrago_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghaus_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\ghaus_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="godlin_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\godlin_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="harp_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\harp_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="huma_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\huma_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ir_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\ir_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ligh_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\ligh_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minotau_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\minotau_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rubia_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\rubia_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoa_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\shoa_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sylp_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\sylp_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vampir_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\vampir_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="younh_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images\races\icons\younh_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

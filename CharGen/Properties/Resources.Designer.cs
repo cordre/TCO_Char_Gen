@@ -63,9 +63,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ageles_icons {
+        internal static System.Drawing.Bitmap ageles_icon {
             get {
-                object obj = ResourceManager.GetObject("ageles_icons", resourceCulture);
+                object obj = ResourceManager.GetObject("ageles_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap anjia_iconn {
+        internal static System.Drawing.Bitmap anjia_icon {
             get {
-                object obj = ResourceManager.GetObject("anjia_iconn", resourceCulture);
+                object obj = ResourceManager.GetObject("anjia_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap aquati_iconc {
+        internal static System.Drawing.Bitmap aquati_icon {
             get {
-                object obj = ResourceManager.GetObject("aquati_iconc", resourceCulture);
+                object obj = ResourceManager.GetObject("aquati_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blan_iconk {
+        internal static System.Drawing.Bitmap blan_icon {
             get {
-                object obj = ResourceManager.GetObject("blan_iconk", resourceCulture);
+                object obj = ResourceManager.GetObject("blan_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blank_icon_ {
+        internal static System.Drawing.Bitmap blank_icon {
             get {
-                object obj = ResourceManager.GetObject("blank_icon_", resourceCulture);
+                object obj = ResourceManager.GetObject("blank_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap centau_iconr {
+        internal static System.Drawing.Bitmap centau_icon {
             get {
-                object obj = ResourceManager.GetObject("centau_iconr", resourceCulture);
+                object obj = ResourceManager.GetObject("centau_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap crystalia_iconn {
+        internal static System.Drawing.Bitmap crystalia_icon {
             get {
-                object obj = ResourceManager.GetObject("crystalia_iconn", resourceCulture);
+                object obj = ResourceManager.GetObject("crystalia_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dar_iconk {
+        internal static System.Drawing.Bitmap dar_icon {
             get {
-                object obj = ResourceManager.GetObject("dar_iconk", resourceCulture);
+                object obj = ResourceManager.GetObject("dar_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ddrago_iconn {
+        internal static System.Drawing.Bitmap ddrago_icon {
             get {
-                object obj = ResourceManager.GetObject("ddrago_iconn", resourceCulture);
+                object obj = ResourceManager.GetObject("ddrago_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap demoto_icons {
+        internal static System.Drawing.Bitmap demoto_icon {
             get {
-                object obj = ResourceManager.GetObject("demoto_icons", resourceCulture);
+                object obj = ResourceManager.GetObject("demoto_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dharp_icony {
+        internal static System.Drawing.Bitmap dharp_icon {
             get {
-                object obj = ResourceManager.GetObject("dharp_icony", resourceCulture);
+                object obj = ResourceManager.GetObject("dharp_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dragonoi_icond {
+        internal static System.Drawing.Bitmap dragonoi_icon {
             get {
-                object obj = ResourceManager.GetObject("dragonoi_icond", resourceCulture);
+                object obj = ResourceManager.GetObject("dragonoi_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +313,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edenia_iconn {
+        internal static System.Drawing.Bitmap edenia_icon {
             get {
-                object obj = ResourceManager.GetObject("edenia_iconn", resourceCulture);
+                object obj = ResourceManager.GetObject("edenia_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,9 +333,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edrago_iconn {
+        internal static System.Drawing.Bitmap edrago_icon {
             get {
-                object obj = ResourceManager.GetObject("edrago_iconn", resourceCulture);
+                object obj = ResourceManager.GetObject("edrago_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +353,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap efair_icony {
+        internal static System.Drawing.Bitmap efair_icon {
             get {
-                object obj = ResourceManager.GetObject("efair_icony", resourceCulture);
+                object obj = ResourceManager.GetObject("efair_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,9 +373,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap el_iconf {
+        internal static System.Drawing.Bitmap el_icon {
             get {
-                object obj = ResourceManager.GetObject("el_iconf", resourceCulture);
+                object obj = ResourceManager.GetObject("el_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,9 +413,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap galvato_icons {
+        internal static System.Drawing.Bitmap galvato_icon {
             get {
-                object obj = ResourceManager.GetObject("galvato_icons", resourceCulture);
+                object obj = ResourceManager.GetObject("galvato_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,9 +433,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap gdrago_iconn {
+        internal static System.Drawing.Bitmap gdrago_icon {
             get {
-                object obj = ResourceManager.GetObject("gdrago_iconn", resourceCulture);
+                object obj = ResourceManager.GetObject("gdrago_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -453,9 +453,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ghaus_icont {
+        internal static System.Drawing.Bitmap ghaus_icon {
             get {
-                object obj = ResourceManager.GetObject("ghaus_icont", resourceCulture);
+                object obj = ResourceManager.GetObject("ghaus_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,9 +473,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap godlin_icong {
+        internal static System.Drawing.Bitmap godlin_icon {
             get {
-                object obj = ResourceManager.GetObject("godlin_icong", resourceCulture);
+                object obj = ResourceManager.GetObject("godlin_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,9 +493,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap harp_icony {
+        internal static System.Drawing.Bitmap harp_icon {
             get {
-                object obj = ResourceManager.GetObject("harp_icony", resourceCulture);
+                object obj = ResourceManager.GetObject("harp_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -523,9 +523,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap huma_iconn {
+        internal static System.Drawing.Bitmap huma_icon {
             get {
-                object obj = ResourceManager.GetObject("huma_iconn", resourceCulture);
+                object obj = ResourceManager.GetObject("huma_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,9 +543,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ir_icona {
+        internal static System.Drawing.Bitmap ir_icon {
             get {
-                object obj = ResourceManager.GetObject("ir_icona", resourceCulture);
+                object obj = ResourceManager.GetObject("ir_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -573,9 +573,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ligh_icont {
+        internal static System.Drawing.Bitmap ligh_icon {
             get {
-                object obj = ResourceManager.GetObject("ligh_icont", resourceCulture);
+                object obj = ResourceManager.GetObject("ligh_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -613,9 +613,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap minotau_iconr {
+        internal static System.Drawing.Bitmap minotau_icon {
             get {
-                object obj = ResourceManager.GetObject("minotau_iconr", resourceCulture);
+                object obj = ResourceManager.GetObject("minotau_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -643,9 +643,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rubia_iconn {
+        internal static System.Drawing.Bitmap rubia_icon {
             get {
-                object obj = ResourceManager.GetObject("rubia_iconn", resourceCulture);
+                object obj = ResourceManager.GetObject("rubia_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -663,9 +663,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap shoa_iconn {
+        internal static System.Drawing.Bitmap shoa_icon {
             get {
-                object obj = ResourceManager.GetObject("shoa_iconn", resourceCulture);
+                object obj = ResourceManager.GetObject("shoa_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -693,9 +693,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sylp_iconh {
+        internal static System.Drawing.Bitmap sylp_icon {
             get {
-                object obj = ResourceManager.GetObject("sylp_iconh", resourceCulture);
+                object obj = ResourceManager.GetObject("sylp_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -713,9 +713,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap vampir_icone {
+        internal static System.Drawing.Bitmap vampir_icon {
             get {
-                object obj = ResourceManager.GetObject("vampir_icone", resourceCulture);
+                object obj = ResourceManager.GetObject("vampir_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -743,9 +743,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap younh_icona {
+        internal static System.Drawing.Bitmap younh_icon {
             get {
-                object obj = ResourceManager.GetObject("younh_icona", resourceCulture);
+                object obj = ResourceManager.GetObject("younh_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
