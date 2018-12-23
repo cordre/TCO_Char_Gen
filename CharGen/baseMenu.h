@@ -78,14 +78,14 @@ namespace TCOCharGen {
 			{
 			case 1:
 				this->raceDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\anjian.jpg");
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\anjian.jpg");
 				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\blank.png");
 				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\anjian.png");
 				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
 				break;
 			case 2:
 				this->raceDetails->LoadFile(".\\text\\races\\Elite Fairy.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\efairy.jpg");
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\efairy.jpg");
 				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\anjian.png");
 				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
 				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
@@ -93,7 +93,7 @@ namespace TCOCharGen {
 				break;
 			case 3:
 				this->raceDetails->LoadFile(".\\text\\races\\Guarded Dragon.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\Ghaust.png");
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\gdragon.jpg");
 				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
 				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
 				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
@@ -101,7 +101,7 @@ namespace TCOCharGen {
 				break;
 			case 4:
 				this->raceDetails->LoadFile(".\\text\\races\\Harpy.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\harpy.jpg");
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\harpy1.jpg");
 				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
 				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
 				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
@@ -109,7 +109,7 @@ namespace TCOCharGen {
 				break;
 			case 5:
 				this->raceDetails->LoadFile(".\\text\\races\\Human.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\human.jpg");
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\human.jpg");
 				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
 				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
 				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
@@ -117,7 +117,7 @@ namespace TCOCharGen {
 				break;
 			case 6:
 				this->raceDetails->LoadFile(".\\text\\races\\Light.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\rubian.jpg");
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\light.jpg");
 				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
 				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
 				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\shoan.png");
@@ -125,7 +125,7 @@ namespace TCOCharGen {
 				break;
 			case 7:
 				this->raceDetails->LoadFile(".\\text\\races\\Shoan.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\dharpy.jpg");
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\shoan2.jpg");
 				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
 				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\shoan.png");
 				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\blank.png");
