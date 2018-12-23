@@ -1,4 +1,5 @@
 #pragma once
+#include <stdio.h>
 
 namespace TCOCharGen {
 
@@ -9,9 +10,15 @@ namespace TCOCharGen {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
+
 	/// <summary>
 	/// Summary for baseMenu
 	/// </summary>
+
+	Char* tmpf;
+	int gender = 0;
+	int curRace = 1;
+
 	public ref class baseMenu : public System::Windows::Forms::Form
 	{
 	public:
@@ -35,9 +42,7 @@ namespace TCOCharGen {
 			}
 		}
 	private: System::Windows::Forms::Panel^  prevRace;
-
 	private: System::Windows::Forms::Panel^  currentRace;
-
 	private: System::Windows::Forms::Button^  nextButton;
 	private: System::Windows::Forms::Button^  prevButton;
 	private: System::Windows::Forms::RichTextBox^  raceDetails;
@@ -49,17 +54,9 @@ namespace TCOCharGen {
 	private: System::Windows::Forms::RichTextBox^  classDetails;
 	private: System::Windows::Forms::Button^  maleT;
 	private: System::Windows::Forms::Button^  femaleT;
-
-
+	private: System::Windows::Forms::Button^  button1;
 
 	private: System::ComponentModel::IContainer^  components;
-
-
-
-
-
-
-
 
 
 
@@ -71,9 +68,88 @@ namespace TCOCharGen {
 	protected:
 
 	private:
+		int gender;
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
+
+		void ChangeClass(int racesel) {
+			switch (racesel)
+			{
+			case 1:
+				this->raceDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\anjian.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\blank.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\anjian.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
+				break;
+			case 2:
+				this->raceDetails->LoadFile(".\\text\\races\\Elite Fairy.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\efairy.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\anjian.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
+
+				break;
+			case 3:
+				this->raceDetails->LoadFile(".\\text\\races\\Guarded Dragon.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\Ghaust.png");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
+
+				break;
+			case 4:
+				this->raceDetails->LoadFile(".\\text\\races\\Harpy.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\harpy.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
+
+				break;
+			case 5:
+				this->raceDetails->LoadFile(".\\text\\races\\Human.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\human.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
+
+				break;
+			case 6:
+				this->raceDetails->LoadFile(".\\text\\races\\Light.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\rubian.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\shoan.png");
+
+				break;
+			case 7:
+				this->raceDetails->LoadFile(".\\text\\races\\Shoan.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\dharpy.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\shoan.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\blank.png");
+				
+				//this->nextRace->BackgroundImage->FromFile(".\\images\\races\\icons\\.png");
+				break;
+			/*
+			case 8:
+				this->raceDetails->LoadFile(".\\text\\races\\Centaur.rtf", RichTextBoxStreamType::RichText);
+				break;
+			*/
+			};
+		}
+
+	void genderSel(int gendersel){
+		if (gendersel == 2) {
+			this->femaleT->BackgroundImage = System::Drawing::Image::FromFile(".\\icons\\female_.png");
+			this->maleT->BackgroundImage = System::Drawing::Image::FromFile(".\\icons\\male.png");
+		} else
+		{
+			this->femaleT->BackgroundImage = System::Drawing::Image::FromFile(".\\icons\\female.png");
+			this->maleT->BackgroundImage = System::Drawing::Image::FromFile(".\\icons\\male_.png");
+		}
+	}
 
 
 #pragma region Windows Form Designer generated code
@@ -97,16 +173,17 @@ namespace TCOCharGen {
 			this->classDetails = (gcnew System::Windows::Forms::RichTextBox());
 			this->maleT = (gcnew System::Windows::Forms::Button());
 			this->femaleT = (gcnew System::Windows::Forms::Button());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// prevRace
 			// 
 			this->prevRace->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"prevRace.BackgroundImage")));
 			this->prevRace->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->prevRace->Location = System::Drawing::Point(470, 600);
+			this->prevRace->Location = System::Drawing::Point(705, 923);
 			this->prevRace->Margin = System::Windows::Forms::Padding(0);
 			this->prevRace->Name = L"prevRace";
-			this->prevRace->Size = System::Drawing::Size(60, 60);
+			this->prevRace->Size = System::Drawing::Size(90, 92);
 			this->prevRace->TabIndex = 0;
 			this->prevRace->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &baseMenu::prevRace_Paint);
 			// 
@@ -115,10 +192,10 @@ namespace TCOCharGen {
 			this->currentRace->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"currentRace.BackgroundImage")));
 			this->currentRace->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->currentRace->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->currentRace->Location = System::Drawing::Point(580, 450);
+			this->currentRace->Location = System::Drawing::Point(870, 692);
 			this->currentRace->Margin = System::Windows::Forms::Padding(0);
 			this->currentRace->Name = L"currentRace";
-			this->currentRace->Size = System::Drawing::Size(120, 120);
+			this->currentRace->Size = System::Drawing::Size(179, 184);
 			this->currentRace->TabIndex = 1;
 			this->currentRace->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &baseMenu::currentRace_Paint);
 			// 
@@ -130,13 +207,14 @@ namespace TCOCharGen {
 			this->nextButton->FlatAppearance->BorderSize = 0;
 			this->nextButton->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->nextButton->ForeColor = System::Drawing::Color::Transparent;
-			this->nextButton->Location = System::Drawing::Point(750, 490);
+			this->nextButton->Location = System::Drawing::Point(1125, 754);
 			this->nextButton->Margin = System::Windows::Forms::Padding(0);
 			this->nextButton->Name = L"nextButton";
-			this->nextButton->Size = System::Drawing::Size(60, 40);
+			this->nextButton->Size = System::Drawing::Size(90, 62);
 			this->nextButton->TabIndex = 2;
 			this->nextButton->TabStop = false;
 			this->nextButton->UseVisualStyleBackColor = false;
+			this->nextButton->Click += gcnew System::EventHandler(this, &baseMenu::nextButton_click);
 			// 
 			// prevButton
 			// 
@@ -146,13 +224,14 @@ namespace TCOCharGen {
 			this->prevButton->FlatAppearance->BorderSize = 0;
 			this->prevButton->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->prevButton->ForeColor = System::Drawing::Color::Transparent;
-			this->prevButton->Location = System::Drawing::Point(470, 490);
+			this->prevButton->Location = System::Drawing::Point(705, 754);
 			this->prevButton->Margin = System::Windows::Forms::Padding(0);
 			this->prevButton->Name = L"prevButton";
-			this->prevButton->Size = System::Drawing::Size(60, 40);
+			this->prevButton->Size = System::Drawing::Size(90, 62);
 			this->prevButton->TabIndex = 1;
 			this->prevButton->TabStop = false;
 			this->prevButton->UseVisualStyleBackColor = false;
+			this->prevButton->Click += gcnew System::EventHandler(this, &baseMenu::prevButton_click);
 			// 
 			// raceDetails
 			// 
@@ -162,34 +241,36 @@ namespace TCOCharGen {
 			this->raceDetails->Font = (gcnew System::Drawing::Font(L"Monotype Corsiva", 18, System::Drawing::FontStyle::Italic, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->raceDetails->ForeColor = System::Drawing::Color::White;
-			this->raceDetails->Location = System::Drawing::Point(20, 20);
+			this->raceDetails->Location = System::Drawing::Point(30, 31);
 			this->raceDetails->Margin = System::Windows::Forms::Padding(0);
 			this->raceDetails->Name = L"raceDetails";
 			this->raceDetails->ReadOnly = true;
 			this->raceDetails->ScrollBars = System::Windows::Forms::RichTextBoxScrollBars::None;
 			this->raceDetails->ShortcutsEnabled = false;
-			this->raceDetails->Size = System::Drawing::Size(400, 600);
+			this->raceDetails->Size = System::Drawing::Size(600, 923);
 			this->raceDetails->TabIndex = 2;
-			this->raceDetails->Text = L"Test";
+			//this->raceDetails->Text = L"Test";
+			this->raceDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText );
+			this->raceDetails->TextChanged += gcnew System::EventHandler(this, &baseMenu::raceDetails_TextChanged);
 			// 
 			// nextRace
 			// 
 			this->nextRace->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextRace.BackgroundImage")));
 			this->nextRace->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->nextRace->Location = System::Drawing::Point(750, 600);
+			this->nextRace->Location = System::Drawing::Point(1125, 923);
 			this->nextRace->Margin = System::Windows::Forms::Padding(0);
 			this->nextRace->Name = L"nextRace";
-			this->nextRace->Size = System::Drawing::Size(60, 60);
+			this->nextRace->Size = System::Drawing::Size(90, 92);
 			this->nextRace->TabIndex = 3;
 			// 
 			// border
 			// 
 			this->border->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"border.BackgroundImage")));
 			this->border->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->border->Location = System::Drawing::Point(570, 440);
+			this->border->Location = System::Drawing::Point(855, 677);
 			this->border->Margin = System::Windows::Forms::Padding(0);
 			this->border->Name = L"border";
-			this->border->Size = System::Drawing::Size(140, 140);
+			this->border->Size = System::Drawing::Size(210, 215);
 			this->border->TabIndex = 4;
 			// 
 			// raceName
@@ -198,10 +279,10 @@ namespace TCOCharGen {
 			this->raceName->Font = (gcnew System::Drawing::Font(L"Monotype Corsiva", 24, System::Drawing::FontStyle::Italic, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->raceName->ForeColor = System::Drawing::Color::Red;
-			this->raceName->Location = System::Drawing::Point(530, 600);
+			this->raceName->Location = System::Drawing::Point(795, 923);
 			this->raceName->Margin = System::Windows::Forms::Padding(0);
 			this->raceName->Name = L"raceName";
-			this->raceName->Size = System::Drawing::Size(220, 39);
+			this->raceName->Size = System::Drawing::Size(330, 60);
 			this->raceName->TabIndex = 5;
 			this->raceName->Text = L"Anjian";
 			this->raceName->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -210,10 +291,10 @@ namespace TCOCharGen {
 			// 
 			this->classImage->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"classImage.BackgroundImage")));
 			this->classImage->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->classImage->Location = System::Drawing::Point(540, 100);
+			this->classImage->Location = System::Drawing::Point(810, 154);
 			this->classImage->Margin = System::Windows::Forms::Padding(0);
 			this->classImage->Name = L"classImage";
-			this->classImage->Size = System::Drawing::Size(200, 300);
+			this->classImage->Size = System::Drawing::Size(300, 462);
 			this->classImage->TabIndex = 6;
 			// 
 			// CYR
@@ -222,10 +303,10 @@ namespace TCOCharGen {
 			this->CYR->Font = (gcnew System::Drawing::Font(L"Monotype Corsiva", 24, System::Drawing::FontStyle::Italic, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->CYR->ForeColor = System::Drawing::Color::Red;
-			this->CYR->Location = System::Drawing::Point(530, 20);
+			this->CYR->Location = System::Drawing::Point(795, 31);
 			this->CYR->Margin = System::Windows::Forms::Padding(0);
 			this->CYR->Name = L"CYR";
-			this->CYR->Size = System::Drawing::Size(220, 39);
+			this->CYR->Size = System::Drawing::Size(330, 60);
 			this->CYR->TabIndex = 7;
 			this->CYR->Text = L"Choose Your Race";
 			this->CYR->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -238,15 +319,16 @@ namespace TCOCharGen {
 			this->classDetails->Font = (gcnew System::Drawing::Font(L"Monotype Corsiva", 18, System::Drawing::FontStyle::Italic, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->classDetails->ForeColor = System::Drawing::Color::White;
-			this->classDetails->Location = System::Drawing::Point(860, 20);
+			this->classDetails->Location = System::Drawing::Point(1290, 31);
 			this->classDetails->Margin = System::Windows::Forms::Padding(0);
 			this->classDetails->Name = L"classDetails";
 			this->classDetails->ReadOnly = true;
 			this->classDetails->ScrollBars = System::Windows::Forms::RichTextBoxScrollBars::None;
 			this->classDetails->ShortcutsEnabled = false;
-			this->classDetails->Size = System::Drawing::Size(400, 600);
+			this->classDetails->Size = System::Drawing::Size(600, 923);
 			this->classDetails->TabIndex = 8;
-			this->classDetails->Text = L"Test";
+			this->classDetails->Text = L"Class Info";
+			//this->classDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText);
 			// 
 			// maleT
 			// 
@@ -254,10 +336,10 @@ namespace TCOCharGen {
 			this->maleT->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->maleT->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->maleT->ForeColor = System::Drawing::Color::Transparent;
-			this->maleT->Location = System::Drawing::Point(450, 340);
+			this->maleT->Location = System::Drawing::Point(675, 523);
 			this->maleT->Margin = System::Windows::Forms::Padding(0);
 			this->maleT->Name = L"maleT";
-			this->maleT->Size = System::Drawing::Size(60, 60);
+			this->maleT->Size = System::Drawing::Size(90, 92);
 			this->maleT->TabIndex = 9;
 			this->maleT->TabStop = false;
 			this->maleT->UseVisualStyleBackColor = true;
@@ -269,22 +351,33 @@ namespace TCOCharGen {
 			this->femaleT->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->femaleT->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->femaleT->ForeColor = System::Drawing::Color::Transparent;
-			this->femaleT->Location = System::Drawing::Point(770, 340);
+			this->femaleT->Location = System::Drawing::Point(1155, 523);
 			this->femaleT->Margin = System::Windows::Forms::Padding(0);
 			this->femaleT->Name = L"femaleT";
-			this->femaleT->Size = System::Drawing::Size(60, 60);
+			this->femaleT->Size = System::Drawing::Size(90, 92);
 			this->femaleT->TabIndex = 10;
 			this->femaleT->TabStop = false;
 			this->femaleT->UseVisualStyleBackColor = true;
 			this->femaleT->Click += gcnew System::EventHandler(this, &baseMenu::femaleT_Click);
 			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(589, 977);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(75, 38);
+			this->button1->TabIndex = 11;
+			this->button1->Text = L"Debug";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &baseMenu::testClick);
+			// 
 			// baseMenu
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Black;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1264, 681);
+			this->ClientSize = System::Drawing::Size(1887, 1022);
+			this->Controls->Add(this->button1);
 			this->Controls->Add(this->femaleT);
 			this->Controls->Add(this->maleT);
 			this->Controls->Add(this->classDetails);
@@ -300,8 +393,9 @@ namespace TCOCharGen {
 			this->Controls->Add(this->border);
 			this->Cursor = System::Windows::Forms::Cursors::Default;
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
-			this->MaximumSize = System::Drawing::Size(1280, 720);
-			this->MinimumSize = System::Drawing::Size(1280, 720);
+			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->MaximumSize = System::Drawing::Size(1909, 1078);
+			this->MinimumSize = System::Drawing::Size(1909, 1078);
 			this->Name = L"baseMenu";
 			this->Text = L"baseMenu";
 			this->ResumeLayout(false);
@@ -319,9 +413,35 @@ private: System::Void richTextBox1_TextChanged(System::Object^  sender, System::
 private: System::Void linkLabel1_LinkClicked_1(System::Object^  sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^  e) {
 }
 private: System::Void femaleT_Click(System::Object^  sender, System::EventArgs^  e) {
+	gender = 2;
+	genderSel(gender);
 }
 
 private: System::Void maleT_Click(System::Object^  sender, System::EventArgs^  e) {
+	gender = 1;
+	genderSel(gender);
+}
+private: System::Void raceDetails_TextChanged(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void nextButton_click(System::Object^  sender, System::EventArgs^  e) {
+		curRace += 1;
+		if (curRace > 7) {
+			curRace = 7;
+		}
+		ChangeClass(curRace);
+}
+private: System::Void prevButton_click(System::Object^  sender, System::EventArgs^  e) {
+	curRace -= 1;
+
+	if (curRace < 1) {
+		curRace = 1;
+	}
+
+	ChangeClass(curRace);
+}
+private: System::Void testClick(System::Object^  sender, System::EventArgs^  e) {
+	String^ genderStr = String::Format("Gender: {0}", gender) + String::Format("\nCurrent Race: {0}", curRace);
+	MessageBox::Show(genderStr);
 }
 };
 }
