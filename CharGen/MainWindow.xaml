@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CharGen"
         mc:Ignorable="d"
-        Title="CharGen v4" Height="720" Width="1280">
+        Title="CharGen v4" Height="720" Width="1280" Icon="Resources/icons/Lumi.png">
     <Grid Background="Black">
         <Button x:Name="buttonPrevRace" Content="" HorizontalAlignment="Left" Margin="412,530,0,0" VerticalAlignment="Top" Width="74" Height="29" Click="ButtonPrevRace_Click">
             <Button.Background>

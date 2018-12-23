@@ -302,7 +302,7 @@
     <Resource Include="Resources\images\races\icons\younha_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\icons\Lumi.png" />
+    <Resource Include="Resources\icons\lumi.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

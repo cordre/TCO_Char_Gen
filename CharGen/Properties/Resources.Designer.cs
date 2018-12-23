@@ -593,9 +593,9 @@ namespace CharGen.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Lumi {
+        internal static System.Drawing.Bitmap lumi {
             get {
-                object obj = ResourceManager.GetObject("Lumi", resourceCulture);
+                object obj = ResourceManager.GetObject("lumi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
