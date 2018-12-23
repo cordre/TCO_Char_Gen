@@ -141,6 +141,7 @@
     <ClInclude Include="baseMenu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="baseMenu.resx">
@@ -203,6 +204,12 @@
     <None Include="text\races\Sylvan.rtf" />
     <None Include="text\races\Vampire.rtf" />
     <None Include="text\races\Youna.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TCO_Char_Gen.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icons\lumi.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
