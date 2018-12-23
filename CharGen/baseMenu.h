@@ -73,65 +73,41 @@ namespace TCOCharGen {
 		/// Required designer variable.
 		/// </summary>
 
+		void ClassSwitcher(System::String^ raceText, System::String^ raceImage, System::String^ pRace, System::String^ cRace, System::String^ nRace, System::String^ labelrace) {
+			System::String^ RaceTextPath = ".\\text\\races\\";
+			System::String^ RacePath = ".\\images\\races\\";
+			System::String^ iconPath = ".\\images\\races\\icons\\";
+			this->raceDetails->LoadFile((RaceTextPath+ raceText +".rtf"), RichTextBoxStreamType::RichText);
+			this->classImage->BackgroundImage = System::Drawing::Image::FromFile(RacePath+ raceImage +".jpg");
+			this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(iconPath+pRace+".png");
+			this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(iconPath+cRace+".png");
+			this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(iconPath+nRace+".png");
+			this->raceName->Text = labelrace;
+		}
+
 		void ChangeClass(int racesel) {
 			switch (racesel)
 			{
 			case 1:
-				this->raceDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\anjian.jpg");
-				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\blank.png");
-				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\anjian.png");
-				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
-				this->raceName->Text = L"Anjian";
+				ClassSwitcher("Anjian","anjian","blank","anjian","efairy","Anjian");
 				break;
 			case 2:
-				this->raceDetails->LoadFile(".\\text\\races\\Elite Fairy.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\efairy.jpg");
-				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\anjian.png");
-				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
-				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
-				this->raceName->Text = L"Elite Fairy";
+				ClassSwitcher("Elite Fairy", "efairy", "anjian", "efairy", "gdragon", "Elite Fairy");
 				break;
 			case 3:
-				this->raceDetails->LoadFile(".\\text\\races\\Guarded Dragon.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\gdragon.jpg");
-				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
-				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
-				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
-				this->raceName->Text = L"Guarded Dragon";
+				ClassSwitcher("Guarded Dragon", "gdragon", "efairy", "gdragon", "harpy", "Guarded Dragon");
 				break;
 			case 4:
-				this->raceDetails->LoadFile(".\\text\\races\\Harpy.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\harpy1.jpg");
-				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
-				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
-				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
-				this->raceName->Text = L"Harpy";
+				ClassSwitcher("Harpy", "harpy1", "gdragon", "harpy", "human", "Harpy");
 				break;
 			case 5:
-				this->raceDetails->LoadFile(".\\text\\races\\Human.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\human.jpg");
-				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
-				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
-				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
-				this->raceName->Text = L"Human";
+				ClassSwitcher("Human", "human", "harpy", "human", "light", "Human");
 				break;
 			case 6:
-				this->raceDetails->LoadFile(".\\text\\races\\Light.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\light.jpg");
-				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
-				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
-				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\shoan.png");
-				this->raceName->Text = L"Light";
+				ClassSwitcher("Light", "light", "human", "light", "shoan", "Light");
 				break;
 			case 7:
-				this->raceDetails->LoadFile(".\\text\\races\\Shoan.rtf", RichTextBoxStreamType::RichText);
-				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\shoan2.jpg");
-				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
-				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\shoan.png");
-				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\blank.png");
-				this->raceName->Text = L"Shoan";
-				//this->nextRace->BackgroundImage->FromFile(".\\images\\races\\icons\\.png");
+				ClassSwitcher("Shoan", "shoan2", "light", "shoan", "blank", "Shoan");
 				break;
 			/*
 			case 8:
