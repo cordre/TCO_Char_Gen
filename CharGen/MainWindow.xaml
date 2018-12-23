@@ -5,33 +5,50 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CharGen"
         mc:Ignorable="d"
-        Title="CharGen v4" Height="720" Width="1280" Icon="Resources/icons/Lumi.png">
-    <Grid Background="Black">
-        <Button x:Name="buttonPrevRace" Content="" HorizontalAlignment="Left" Margin="412,530,0,0" VerticalAlignment="Top" Width="74" Height="29" Click="ButtonPrevRace_Click">
+        Title="CharGen v4" Icon="Resources/icons/Lumi.png" MinWidth="1280" MinHeight="720" MaxWidth="1280" MaxHeight="720" ScrollViewer.VerticalScrollBarVisibility="Disabled" Focusable="False" IsTabStop="False" ResizeMode="NoResize" SizeToContent="WidthAndHeight" Width="1280" Height="720">
+    <Grid Background="Black" MinWidth="1280" MinHeight="700" MaxWidth="1280" MaxHeight="700" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Left" Height="700" Margin="0,0,-6,-29" VerticalAlignment="Top" Width="1260">
+        <Button x:Name="buttonPrevRace" Content="" HorizontalAlignment="Left" Margin="500,505,0,0" VerticalAlignment="Top" Width="60" Height="29" Click="ButtonPrevRace_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Padding="0">
             <Button.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="Resources/icons/Left.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="buttonNextRace" Content="" HorizontalAlignment="Left" Margin="776,530,0,0" VerticalAlignment="Top" Width="82" RenderTransformOrigin="6.144,9.752" Click="ButtonNextRace_Click" Height="29">
+        <Button x:Name="buttonNextRace" Content="" HorizontalAlignment="Right" Margin="0,505,500,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0,0" Click="ButtonNextRace_Click" Height="29" VerticalContentAlignment="Bottom" Padding="0">
             <Button.Background>
                 <ImageBrush ImageSource="Resources/icons/Right.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <RichTextBox x:Name="richText_Race" HorizontalAlignment="Left" Height="479" Margin="10,10,0,0" VerticalAlignment="Top" Width="371" Background="Black">
-            <FlowDocument/>
-        </RichTextBox>
-        <RichTextBox x:Name="richText_Class" HorizontalAlignment="Left" Height="479" Margin="892,10,0,0" VerticalAlignment="Top" Width="371">
-            <RichTextBox.Background>
-                <ImageBrush/>
-            </RichTextBox.Background>
+        <RichTextBox x:Name="richText_Race" Height="600" Width="400" Background="{x:Null}" MinWidth="0" BorderThickness="0" Padding="0" Margin="20,20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="24" IsReadOnly="True" Foreground="Red" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" AllowDrop="False" Focusable="False" IsTabStop="False">
             <FlowDocument>
                 <Paragraph>
-                    <Run Text="RichTextBox"/>
+                    <Run Text="Race Details"/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Label x:Name="label_CurrentRace" Content="Label" HorizontalAlignment="Left" Margin="559,613,0,0" VerticalAlignment="Top" Height="35" Width="120"/>
-        <Label x:Name="label_Choose" Content="Choose Your Race" HorizontalAlignment="Center" Margin="559,36,594.333,0" VerticalAlignment="Top" Height="35" Width="120" Background="Black"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="301" Margin="529,90,0,0" VerticalAlignment="Top" Width="207" Source="Resources/images/races/anjian.jpg" Stretch="Fill"/>
+        <RichTextBox x:Name="richText_Class" Height="600" Margin="0,20,20,0" Width="400" MinWidth="0" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0" IsReadOnly="True" FontSize="24" FontFamily="Monotype Corsiva" Background="{x:Null}" Foreground="Red" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" AllowDrop="False" Focusable="False" IsTabStop="False">
+            <FlowDocument FlowDirection="RightToLeft">
+                <Paragraph>
+                    <Run Text="Class Details"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label x:Name="label_Choose" Content="Choose Your Race" HorizontalAlignment="Left" Margin="540,20,0,0" VerticalAlignment="Top" Height="35" Width="200" Background="{x:Null}" FontFamily="Monotype Corsiva" FontSize="26" Foreground="Red" Padding="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <Image x:Name="racePic" HorizontalAlignment="Left" Height="300" Margin="540,115,0,0" VerticalAlignment="Top" Width="200" Source="Resources/images/races/anjian.jpg" Stretch="Fill"/>
+        <Label x:Name="label_Choose_Copy" Content="Anjian" HorizontalAlignment="Left" Margin="540,625,0,0" VerticalAlignment="Top" Height="35" Width="200" Background="{x:Null}" FontFamily="Monotype Corsiva" FontSize="26" Foreground="Red" Padding="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <Image x:Name="cBorder" HorizontalAlignment="Left" Height="150" Margin="565,0,0,105" VerticalAlignment="Bottom" Width="150" Stretch="Fill" Source="Resources/icons/border.png"/>
+        <Image x:Name="lBorder" HorizontalAlignment="Left" Height="80" Margin="460,0,0,30" VerticalAlignment="Bottom" Width="80" Stretch="Fill" Source="Resources/icons/border.png"/>
+        <Image x:Name="currentRace" HorizontalAlignment="Left" Height="120" Margin="580,0,0,120" VerticalAlignment="Bottom" Width="120" Stretch="UniformToFill" Source="Resources/images/races/icons/anjian_icon.png"/>
+        <Image x:Name="rBorder" HorizontalAlignment="Left" Height="80" Margin="740,0,0,30" VerticalAlignment="Bottom" Width="80" Stretch="UniformToFill" Source="Resources/icons/border.png"/>
+        <Image x:Name="prevRace" HorizontalAlignment="Left" Height="60" Margin="470,0,0,40" VerticalAlignment="Bottom" Width="60" Stretch="UniformToFill" Source="Resources/icons/blank.png"/>
+        <Button x:Name="mButton" Content="" HorizontalAlignment="Left" Margin="460,355,0,0" VerticalAlignment="Top" Width="60" Padding="0" Height="60" BorderThickness="1">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/icons/male.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Image x:Name="nextRace" HorizontalAlignment="Right" Height="60" Margin="0,0,470,40" VerticalAlignment="Bottom" Width="60" Source="Resources/images/races/icons/efairy_icon.png" Stretch="UniformToFill"/>
+        <Button x:Name="fButton" Content="" HorizontalAlignment="Right" Margin="0,355,460,0" VerticalAlignment="Top" Width="60" Padding="0" Height="60" BorderThickness="1">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/icons/female.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
