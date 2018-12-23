@@ -1,7 +1,10 @@
 #include "baseMenu.h"
 
+
 using namespace System;
 using namespace System::Windows::Forms;
+
+//int gender = 0;
 
 [STAThreadAttribute]
 int main(array < String^ > ^ args) {

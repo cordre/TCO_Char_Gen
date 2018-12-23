@@ -1,4 +1,6 @@
   TCOCharGen.baseMenu.resources - Embedded, ContainedInManifestFile, 
+  TCOCharGen.ClassText.resources - Embedded, ContainedInManifestFile, 
+  TCOCharGen.RaceText.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly TCO_Char_Gen, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
 	hash=SHA1, flags=PublicKey

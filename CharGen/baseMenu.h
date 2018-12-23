@@ -1,4 +1,5 @@
 #pragma once
+#include <stdio.h>
 
 namespace TCOCharGen {
 
@@ -9,9 +10,15 @@ namespace TCOCharGen {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
+
 	/// <summary>
 	/// Summary for baseMenu
 	/// </summary>
+
+	Char* tmpf;
+	int gender = 0;
+	int curRace = 1;
+
 	public ref class baseMenu : public System::Windows::Forms::Form
 	{
 	public:
@@ -35,9 +42,7 @@ namespace TCOCharGen {
 			}
 		}
 	private: System::Windows::Forms::Panel^  prevRace;
-
 	private: System::Windows::Forms::Panel^  currentRace;
-
 	private: System::Windows::Forms::Button^  nextButton;
 	private: System::Windows::Forms::Button^  prevButton;
 	private: System::Windows::Forms::RichTextBox^  raceDetails;
@@ -49,17 +54,9 @@ namespace TCOCharGen {
 	private: System::Windows::Forms::RichTextBox^  classDetails;
 	private: System::Windows::Forms::Button^  maleT;
 	private: System::Windows::Forms::Button^  femaleT;
-
-
+	private: System::Windows::Forms::Button^  button1;
 
 	private: System::ComponentModel::IContainer^  components;
-
-
-
-
-
-
-
 
 
 
@@ -71,9 +68,88 @@ namespace TCOCharGen {
 	protected:
 
 	private:
+		int gender;
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
+
+		void ChangeClass(int racesel) {
+			switch (racesel)
+			{
+			case 1:
+				this->raceDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\anjian.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\blank.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\anjian.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
+				break;
+			case 2:
+				this->raceDetails->LoadFile(".\\text\\races\\Elite Fairy.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\efairy.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\anjian.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
+
+				break;
+			case 3:
+				this->raceDetails->LoadFile(".\\text\\races\\Guarded Dragon.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\Ghaust.png");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\efairy.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
+
+				break;
+			case 4:
+				this->raceDetails->LoadFile(".\\text\\races\\Harpy.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\harpy.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\gdragon.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
+
+				break;
+			case 5:
+				this->raceDetails->LoadFile(".\\text\\races\\Human.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\human.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\harpy.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
+
+				break;
+			case 6:
+				this->raceDetails->LoadFile(".\\text\\races\\Light.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\rubian.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\human.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\shoan.png");
+
+				break;
+			case 7:
+				this->raceDetails->LoadFile(".\\text\\races\\Shoan.rtf", RichTextBoxStreamType::RichText);
+				this->classImage->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\classes\\dharpy.jpg");
+				this->prevRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\light.png");
+				this->currentRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\shoan.png");
+				this->nextRace->BackgroundImage = System::Drawing::Image::FromFile(".\\images\\races\\icons\\blank.png");
+				
+				//this->nextRace->BackgroundImage->FromFile(".\\images\\races\\icons\\.png");
+				break;
+			/*
+			case 8:
+				this->raceDetails->LoadFile(".\\text\\races\\Centaur.rtf", RichTextBoxStreamType::RichText);
+				break;
+			*/
+			};
+		}
+
+	void genderSel(int gendersel){
+		if (gendersel == 2) {
+			this->femaleT->BackgroundImage = System::Drawing::Image::FromFile(".\\icons\\female_.png");
+			this->maleT->BackgroundImage = System::Drawing::Image::FromFile(".\\icons\\male.png");
+		} else
+		{
+			this->femaleT->BackgroundImage = System::Drawing::Image::FromFile(".\\icons\\female.png");
+			this->maleT->BackgroundImage = System::Drawing::Image::FromFile(".\\icons\\male_.png");
+		}
+	}
 
 
 #pragma region Windows Form Designer generated code
@@ -97,6 +173,7 @@ namespace TCOCharGen {
 			this->classDetails = (gcnew System::Windows::Forms::RichTextBox());
 			this->maleT = (gcnew System::Windows::Forms::Button());
 			this->femaleT = (gcnew System::Windows::Forms::Button());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// prevRace
@@ -137,6 +214,7 @@ namespace TCOCharGen {
 			this->nextButton->TabIndex = 2;
 			this->nextButton->TabStop = false;
 			this->nextButton->UseVisualStyleBackColor = false;
+			this->nextButton->Click += gcnew System::EventHandler(this, &baseMenu::nextButton_click);
 			// 
 			// prevButton
 			// 
@@ -153,6 +231,7 @@ namespace TCOCharGen {
 			this->prevButton->TabIndex = 1;
 			this->prevButton->TabStop = false;
 			this->prevButton->UseVisualStyleBackColor = false;
+			this->prevButton->Click += gcnew System::EventHandler(this, &baseMenu::prevButton_click);
 			// 
 			// raceDetails
 			// 
@@ -170,7 +249,8 @@ namespace TCOCharGen {
 			this->raceDetails->ShortcutsEnabled = false;
 			this->raceDetails->Size = System::Drawing::Size(600, 923);
 			this->raceDetails->TabIndex = 2;
-			this->raceDetails->Text = L"Test";
+			//this->raceDetails->Text = L"Test";
+			this->raceDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText );
 			this->raceDetails->TextChanged += gcnew System::EventHandler(this, &baseMenu::raceDetails_TextChanged);
 			// 
 			// nextRace
@@ -247,7 +327,8 @@ namespace TCOCharGen {
 			this->classDetails->ShortcutsEnabled = false;
 			this->classDetails->Size = System::Drawing::Size(600, 923);
 			this->classDetails->TabIndex = 8;
-			this->classDetails->Text = L"Test";
+			this->classDetails->Text = L"Class Info";
+			//this->classDetails->LoadFile(".\\text\\races\\Anjian.rtf", RichTextBoxStreamType::RichText);
 			// 
 			// maleT
 			// 
@@ -279,6 +360,16 @@ namespace TCOCharGen {
 			this->femaleT->UseVisualStyleBackColor = true;
 			this->femaleT->Click += gcnew System::EventHandler(this, &baseMenu::femaleT_Click);
 			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(589, 977);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(75, 38);
+			this->button1->TabIndex = 11;
+			this->button1->Text = L"Debug";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &baseMenu::testClick);
+			// 
 			// baseMenu
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
@@ -286,6 +377,7 @@ namespace TCOCharGen {
 			this->BackColor = System::Drawing::Color::Black;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1887, 1022);
+			this->Controls->Add(this->button1);
 			this->Controls->Add(this->femaleT);
 			this->Controls->Add(this->maleT);
 			this->Controls->Add(this->classDetails);
@@ -321,11 +413,35 @@ private: System::Void richTextBox1_TextChanged(System::Object^  sender, System::
 private: System::Void linkLabel1_LinkClicked_1(System::Object^  sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^  e) {
 }
 private: System::Void femaleT_Click(System::Object^  sender, System::EventArgs^  e) {
+	gender = 2;
+	genderSel(gender);
 }
 
 private: System::Void maleT_Click(System::Object^  sender, System::EventArgs^  e) {
+	gender = 1;
+	genderSel(gender);
 }
 private: System::Void raceDetails_TextChanged(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void nextButton_click(System::Object^  sender, System::EventArgs^  e) {
+		curRace += 1;
+		if (curRace > 7) {
+			curRace = 7;
+		}
+		ChangeClass(curRace);
+}
+private: System::Void prevButton_click(System::Object^  sender, System::EventArgs^  e) {
+	curRace -= 1;
+
+	if (curRace < 1) {
+		curRace = 1;
+	}
+
+	ChangeClass(curRace);
+}
+private: System::Void testClick(System::Object^  sender, System::EventArgs^  e) {
+	String^ genderStr = String::Format("Gender: {0}", gender) + String::Format("\nCurrent Race: {0}", curRace);
+	MessageBox::Show(genderStr);
 }
 };
 }
