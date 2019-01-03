@@ -17,7 +17,7 @@
                 <ImageBrush ImageSource="Resources/icons/Right.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <RichTextBox x:Name="richText_Race" Height="600" Width="400" Background="{x:Null}" MinWidth="0" BorderThickness="0" Padding="0" Margin="20,20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="24" IsReadOnly="True" Foreground="Red" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" AllowDrop="False" Focusable="False" IsTabStop="False">
+        <RichTextBox x:Name="richText_Race" Height="600" Width="400" Background="Black" MinWidth="0" BorderThickness="0" Padding="0" Margin="20,20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Monotype Corsiva" FontSize="24" IsReadOnly="True" Foreground="Red" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" AllowDrop="False" Focusable="False" IsTabStop="False" >
             <FlowDocument>
                 <Paragraph>
                     <Run Text="Race Details"/>
@@ -32,7 +32,7 @@
             </FlowDocument>
         </RichTextBox>
         <Label x:Name="label_Choose" Content="Choose Your Race" HorizontalAlignment="Left" Margin="530,20,0,0" VerticalAlignment="Top" Height="35" Width="200" Background="{x:Null}" FontFamily="Monotype Corsiva" FontSize="26" Foreground="Red" Padding="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
-        <Image x:Name="racePic" HorizontalAlignment="Left" Height="300" Margin="530,115,0,0" VerticalAlignment="Top" Width="200" Source="Resources/images/races/anjian.jpg" Stretch="Fill"/>
+        <Image x:Name="racePic" HorizontalAlignment="Left" Height="300" Margin="530,115,0,0" VerticalAlignment="Top" Width="200" Source="Resources/images/races/anjian2.jpg" Stretch="Fill"/>
         <Label x:Name="label_Choose_Copy" Content="Anjian" HorizontalAlignment="Left" Margin="530,625,0,0" VerticalAlignment="Top" Height="35" Width="200" Background="{x:Null}" FontFamily="Monotype Corsiva" FontSize="26" Foreground="Red" Padding="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
         <Image x:Name="cBorder" HorizontalAlignment="Left" Height="150" Margin="555,0,0,105" VerticalAlignment="Bottom" Width="150" Stretch="Fill" Source="Resources/icons/border.png"/>
         <Image x:Name="lBorder" HorizontalAlignment="Left" Height="80" Margin="450,0,0,30" VerticalAlignment="Bottom" Width="80" Stretch="Fill" Source="Resources/icons/border.png"/>

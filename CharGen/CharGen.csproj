@@ -92,63 +92,62 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Resources\text\classes\Alchemist.rtf" />
+    <None Include="Resources\text\classes\Arsonist.rtf" />
+    <None Include="Resources\text\classes\Assassin.rtf" />
+    <None Include="Resources\text\classes\Defender.rtf" />
+    <None Include="Resources\text\classes\Deity.rtf" />
+    <None Include="Resources\text\classes\Dryad.rtf" />
+    <None Include="Resources\text\classes\Elemental Shifter.rtf" />
+    <None Include="Resources\text\classes\Feral.rtf" />
+    <None Include="Resources\text\classes\Fiend.rtf" />
+    <None Include="Resources\text\classes\Haunt.rtf" />
+    <None Include="Resources\text\classes\Hookman.rtf" />
+    <None Include="Resources\text\classes\Leach.rtf" />
+    <None Include="Resources\text\classes\Loremaster.rtf" />
+    <None Include="Resources\text\classes\Mancer.rtf" />
+    <None Include="Resources\text\classes\Nature Tap.rtf" />
+    <None Include="Resources\text\classes\Nomad.rtf" />
+    <None Include="Resources\text\classes\Plasma Fighter.rtf" />
+    <None Include="Resources\text\classes\Plasma Mage.rtf" />
+    <None Include="Resources\text\classes\Priest.rtf" />
+    <None Include="Resources\text\classes\Shaman.rtf" />
+    <None Include="Resources\text\classes\Spirit Walker.rtf" />
+    <None Include="Resources\text\classes\Tribal Mage.rtf" />
+    <None Include="Resources\text\classes\Warlock.rtf" />
+    <None Include="Resources\text\classes\Warrior.rtf" />
+    <None Include="Resources\text\classes\Wind Swordsman.rtf" />
+    <None Include="Resources\text\races\Ageless.rtf" />
+    <None Include="Resources\text\races\Anjian.rtf" />
+    <None Include="Resources\text\races\Aquatic.rtf" />
+    <None Include="Resources\text\races\Centaur.rtf" />
+    <None Include="Resources\text\races\Crystalian.rtf" />
+    <None Include="Resources\text\races\Dark Dragon.rtf" />
+    <None Include="Resources\text\races\Dark Harpy.rtf" />
+    <None Include="Resources\text\races\Dark.rtf" />
+    <None Include="Resources\text\races\Demotos.rtf" />
+    <None Include="Resources\text\races\Dragonoid.rtf" />
+    <None Include="Resources\text\races\Edenian.rtf" />
+    <None Include="Resources\text\races\Elf.rtf" />
+    <None Include="Resources\text\races\Elite Dragon.rtf" />
+    <None Include="Resources\text\races\Elite Fairy.rtf" />
+    <None Include="Resources\text\races\Galvatos.rtf" />
+    <None Include="Resources\text\races\Ghaust.rtf" />
+    <None Include="Resources\text\races\Godling.rtf" />
+    <None Include="Resources\text\races\Guarded Dragon.rtf" />
+    <None Include="Resources\text\races\Harpy.rtf" />
+    <None Include="Resources\text\races\Human.rtf" />
+    <None Include="Resources\text\races\Ira.rtf" />
+    <None Include="Resources\text\races\Light.rtf" />
+    <None Include="Resources\text\races\Minotaur.rtf" />
+    <None Include="Resources\text\races\Rubian.rtf" />
+    <None Include="Resources\text\races\Shoan.rtf" />
+    <None Include="Resources\text\races\Sylph.rtf" />
+    <None Include="Resources\text\races\Vampire.rtf" />
+    <None Include="Resources\text\races\Youna.rtf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\ageless.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\anjian.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\aquatic.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\centaur.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\crystalian.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\dark.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\ddragon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\demotos.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\dharpy.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\dragonoid.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\edenian.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\edragon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\efairy.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\elf.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\galvatos.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\gdragon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\ghaust.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\godling.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\images\races\harpy1.jpg" />
@@ -157,35 +156,13 @@
     <Resource Include="Resources\images\races\harpy2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\images\races\human.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\images\races\icons\blank_icon.png" />
-    <Resource Include="Resources\images\races\ira.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\light.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\minotaur.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\rubian.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\images\races\shoan1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\images\races\shoan2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\sylph.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\vampire.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\images\races\youna.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\icons\blank.png" />
@@ -303,6 +280,60 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\icons\lumi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\images\races\ageless1.jpg" />
+    <Resource Include="Resources\images\races\ageless2.jpg" />
+    <Resource Include="Resources\images\races\anjian1.jpg" />
+    <Resource Include="Resources\images\races\anjian2.jpg" />
+    <Resource Include="Resources\images\races\aquatic1.jpg" />
+    <Resource Include="Resources\images\races\aquatic2.jpg" />
+    <Resource Include="Resources\images\races\centaur1.jpg" />
+    <Resource Include="Resources\images\races\centaur2.jpg" />
+    <Resource Include="Resources\images\races\crystalian1.jpg" />
+    <Resource Include="Resources\images\races\crystalian2.jpg" />
+    <Resource Include="Resources\images\races\dark1.jpg" />
+    <Resource Include="Resources\images\races\dark2.jpg" />
+    <Resource Include="Resources\images\races\ddragon1.jpg" />
+    <Resource Include="Resources\images\races\ddragon2.jpg" />
+    <Resource Include="Resources\images\races\demotos1.jpg" />
+    <Resource Include="Resources\images\races\demotos2.jpg" />
+    <Resource Include="Resources\images\races\dharpy1.jpg" />
+    <Resource Include="Resources\images\races\dharpy2.jpg" />
+    <Resource Include="Resources\images\races\dragonoid1.jpg" />
+    <Resource Include="Resources\images\races\dragonoid2.jpg" />
+    <Resource Include="Resources\images\races\edenian1.jpg" />
+    <Resource Include="Resources\images\races\edenian2.jpg" />
+    <Resource Include="Resources\images\races\edragon1.jpg" />
+    <Resource Include="Resources\images\races\edragon2.jpg" />
+    <Resource Include="Resources\images\races\efairy1.jpg" />
+    <Resource Include="Resources\images\races\efairy2.jpg" />
+    <Resource Include="Resources\images\races\elf1.jpg" />
+    <Resource Include="Resources\images\races\elf2.jpg" />
+    <Resource Include="Resources\images\races\galvatos1.jpg" />
+    <Resource Include="Resources\images\races\galvatos2.jpg" />
+    <Resource Include="Resources\images\races\gdragon1.jpg" />
+    <Resource Include="Resources\images\races\gdragon2.jpg" />
+    <Resource Include="Resources\images\races\ghaust1.png" />
+    <Resource Include="Resources\images\races\ghaust2.jpg" />
+    <Resource Include="Resources\images\races\godling1.jpg" />
+    <Resource Include="Resources\images\races\godling2.jpg" />
+    <Resource Include="Resources\images\races\human1.jpg" />
+    <Resource Include="Resources\images\races\human2.jpg" />
+    <Resource Include="Resources\images\races\ira1.png" />
+    <Resource Include="Resources\images\races\ira2.jpg" />
+    <Resource Include="Resources\images\races\light1.jpg" />
+    <Resource Include="Resources\images\races\light2.jpg" />
+    <Resource Include="Resources\images\races\minotaur1.jpg" />
+    <Resource Include="Resources\images\races\minotaur2.jpg" />
+    <Resource Include="Resources\images\races\rubian1.jpg" />
+    <Resource Include="Resources\images\races\rubian2.jpg" />
+    <Resource Include="Resources\images\races\sylph1.jpg" />
+    <Resource Include="Resources\images\races\sylph2.jpg" />
+    <Resource Include="Resources\images\races\vampire1.jpg" />
+    <Resource Include="Resources\images\races\vampire2.jpg" />
+    <Resource Include="Resources\images\races\youna1.jpg" />
+    <Resource Include="Resources\images\races\youna2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
