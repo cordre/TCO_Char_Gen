@@ -21,11 +21,12 @@ namespace CharGen
     /// </summary>
     public partial class MainWindow : Window
     {
-        int gender = 0;
-        int curRace = 1;
+        private int race, gender;
         public MainWindow()
         {
             InitializeComponent();
+            Character ageless = new Character("Amalja");
+            ageless.gender = "male";
         }
 
         private void ButtonNextRace_Click(object sender, RoutedEventArgs e)
@@ -36,6 +37,18 @@ namespace CharGen
         private void ButtonPrevRace_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+    }
+
+    class Character
+    {
+        public string race, gender, age, height, btype, hlen, hcolor, ecolor, residence, homeplanet, allegiance, profession, affinity, element, align;
+        public int level;
+
+        public Character(string selection)
+        {
+            race = selection;
         }
     }
 }
