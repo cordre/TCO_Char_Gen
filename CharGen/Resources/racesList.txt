@@ -1,28 +1,28 @@
-ageless
 anjian
-aquatic
-centaur
-crystalian
-dark dragon
-dark harpy
-dark
-demotos
-dragonoid
-edenian
-elf
-elite dragon
 elite fairy
-galvatos
-ghaust
-godling
-guarded dragon
+shoan
 harpy
 human
-ira
 light
-minotaur
-rubian
-shoan
-sylph
+dark
+aquatic
+elite dragon
+guarded dragon
+dark harpy
+elf
 vampire
+ageless
+crystalian
+centaur
+minotaur
+galvatos
+demotos
 youna
+edenian
+rubian
+ira
+ghaust
+sylph
+godling
+dragonoid
+dark dragon
